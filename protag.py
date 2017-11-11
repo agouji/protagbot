@@ -101,4 +101,5 @@ async def on_message(message):
     elif message.content.startswith('!poem'):
        await client.send_message(message.channel, poem())
 
-client.run('Mzc4MDk0MzQwODcyMDc3MzI2.DOWfaQ.iMvNJq26hl5bYNE7h2y8IG65wMc')
+token = raw_input('Insert Token: )    
+client.run('token')
